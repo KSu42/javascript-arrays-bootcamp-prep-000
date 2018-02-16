@@ -12,12 +12,10 @@ function addElementToEndOfArray(array, element) {
 
 // (KSu) Adding elements to arrays destructively
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift(element)
-  return array
+  return array.unshift(element)
 }
 function destructivelyAddElementToEndOfArray(array, element) {
-  array.push(element)
-  return array
+  return array.push(element)
 }
 
 // (KSu) Mostly self-explanatory titles
@@ -26,8 +24,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift()
-  return array
+  return array.shift()
 }
 
 function removeElementFromBeginningOfArray(array) {
