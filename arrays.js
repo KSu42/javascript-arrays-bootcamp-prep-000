@@ -4,10 +4,12 @@ var chocolateBars = new Array("snickers", "hundred grand", "kitkat", "skittles")
 
 // (KSu) Adding elements to arrays
 function addElementToBeginningOfArray(array, element) {
-  return [element, ...array]
+  [element, ...array]
+  return array
 }
 function addElementToEndOfArray(array, element) {
-  return [...array, element]
+  [...array, element]
+  return array
 }
 
 // (KSu) Adding elements to arrays destructively
