@@ -4,7 +4,7 @@ var chocolateBars = new Array("snickers", "hundred grand", "kitkat", "skittles")
 
 // (KSu) Adding elements to arrays
 function addElementToBeginningOfArray(array, element) {
- return [element, ...array]
+  return [element, ...array]
 }
 function addElementToEndOfArray(array, element) {
   return [...array, element]
