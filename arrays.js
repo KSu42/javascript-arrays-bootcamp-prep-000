@@ -20,25 +20,27 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
-// (KSu) Mostly self-explanatory titles
+// (KSu) Accessing elements in arrays
 function accessElementInArray(array, index) {
   return array[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift()
-  return array
+// (KSu) Removing elements from arrays
+function removeElementFromEndOfArray(array) {
+  return array.slice(0, array.length - 1)
 }
 
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
 
+// (KSu) Removing elements from arrays destructively
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 }
 
-function removeElementFromEndOfArray(array) {
-  return array.slice(0, array.length - 1)
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
 }
